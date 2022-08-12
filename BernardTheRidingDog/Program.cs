@@ -36,7 +36,7 @@ namespace BernardTheRidingDog
 
             _client.Log += Log;
             _client.Ready += OnReady;
-            await _client.SetGameAsync("the door", type: ActivityType.Watching);
+            await _client.SetGameAsync("with your bones", type: ActivityType.Playing);
 
             await _client.LoginAsync(TokenType.Bot, _config.BotConfig.Token);
             await _client.StartAsync();
