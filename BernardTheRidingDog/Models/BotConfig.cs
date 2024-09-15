@@ -21,6 +21,10 @@ namespace BernardTheRidingDog.Models
         public string Database { get; set; }
         [JsonProperty("password")]
         public string Password { get; set; }
+        [JsonProperty("apps_channel_id")]
+        public ulong AppsChannelId { get; set; }
+        [JsonProperty("general_channel_id")]
+        public ulong GeneralChannelId { get; set; }
         [JsonProperty("apitoken")]
         public string ApiToken { get; set; }
         [JsonProperty("apiserveruri")]
